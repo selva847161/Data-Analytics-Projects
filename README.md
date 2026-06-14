@@ -1,6 +1,6 @@
 # Data Analytics Projects
 
-1.Customer Behavior Analytics using RFM Segmentation & Cohort Analysis
+**1.Customer Behavior Analytics using RFM Segmentation & Cohort Analysis**
 Project Overview
 
 Built an end-to-end customer analytics solution using SQL, RFM Segmentation, Cohort Analysis, and Power BI to analyze customer loyalty, retention, churn risk, and revenue contribution.
