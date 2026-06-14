@@ -1,116 +1,234 @@
 # Data Analytics Projects
 
-**1.Customer Behavior Analytics using RFM Segmentation & Cohort Analysis**
+# 1.Customer Behavior Analytics using RFM Segmentation & Cohort Analysis
 
-**Project Overview**
+## Project Overview
 
 Built an end-to-end customer analytics solution using SQL, RFM Segmentation, Cohort Analysis, and Power BI to analyze customer loyalty, retention, churn risk, and revenue contribution.
 
-**Business Objective**
+## Business Objective
 
 Understand customer purchasing behavior, identify high-value and at-risk customers, measure retention patterns, and uncover revenue growth opportunities through customer segmentation.
 
-**Skills & Technologies**
+## Skills & Technologies
 
-SQL
+* SQL
+* Power BI
+* DAX
+* RFM Segmentation
+* Cohort Analysis
+* Data Visualization
+* Business Analytics
 
-Power BI
+## Key Analyses Performed
 
-DAX
-
-RFM Segmentation
-
-Cohort Analysis
-
-Data Visualization
-
-Business Analytics
-
-**Key Analyses Performed**
-
-***RFM Customer Segmentation***
+### RFM Customer Segmentation 
 
 Segmented customers based on:
 
-Recency
+* Recency
+* Frequency
+* Monetary Value
 
-Frequency
+### Customer groups identified
 
-Monetary Value
+* Loyal Customers
+* Potential Loyalists
+* New Customers
+* Average Customers
+* At Risk Customers
+* Lost Customers
 
-**Customer groups identified:**
-
-Loyal Customers
-
-Potential Loyalists
-
-New Customers
-
-Average Customers
-
-At Risk Customers
-
-Lost Customers
-
-***Cohort Analysis***
+### Cohort Analysis
 
 Analyzed customer retention across acquisition periods to:
 
-Measure repeat purchase behavior
+* Measure repeat purchase behavior
+* Track retention trends over time
+* Identify customer drop-off patterns
 
-Track retention trends over time
-
-Identify customer drop-off patterns
-
-***Customer Loss Analysis***
+### Customer Loss Analysis
 
 Evaluated:
 
-Cancellation revenue impact
+* Cancellation revenue impact
+* Cancellation trends
+* Segment-wise cancellation contribution
+* Products driving the highest cancellation losses
 
-Cancellation trends
-
-Segment-wise cancellation contribution
-
-Products driving the highest cancellation losses
-
-***Entry Product Impact Analysis***
+**Entry Product Impact Analysis**
 
 Investigated how first-purchased products influence:
 
-Customer retention
+* Customer retention
+* Cancellation rates
+* Revenue per customer
 
-Cancellation rates
+## Key Insights
 
-Revenue per customer
+* At-Risk customers represented the largest customer segment and contributed significantly to churn exposure.
+* Potential Loyalists generated the highest median customer value, highlighting strong revenue growth opportunities.
+* Customer retention declined significantly after the first month, emphasizing the importance of post-purchase engagement.
+* Certain entry products generated higher revenue but were also associated with increased cancellation risk.
+* Cancellation losses were concentrated within a small number of products and customer segments.
 
-**Key Insights**
+## Project Files
 
-At-Risk customers represented the largest customer segment and contributed significantly to churn exposure.
+* rfm_segmentation.sql
+* cohort-analysis.sql
+* Customer_Behavior_Analysis.pbix
 
-Potential Loyalists generated the highest median customer value, highlighting strong revenue growth opportunities.
+## Dashboard Snapshots
 
-Customer retention declined significantly after the first month, emphasizing the importance of post-purchase engagement.
+* RFM Dashboard
+* Customer Loss Analysis Dashboard
+* Entry Product Impact Dashboard
 
-Certain entry products generated higher revenue but were also associated with increased cancellation risk.
 
-Cancellation losses were concentrated within a small number of products and customer segments.
+# 2.E-Commerce Sales Performance Analytics
 
-**Project Files**
+## Project Overview
 
-rfm_segmentation.sql
+Developed an end-to-end E-Commerce Analytics solution using SQL and Power BI to evaluate sales performance, profitability, customer behavior, product performance, and return impact.
 
-cohort-analysis.sql
+The project transforms raw transactional data into actionable business insights through data cleaning, dimensional modeling, advanced SQL analysis, and interactive dashboards.
 
-Customer_Behavior_Analysis.pbix
+---
 
-**Dashboard Snapshots**
+## Business Problem
 
-RFM Dashboard
+An online retail company wants to analyze its sales, profit, and order performance to identify growth opportunities, improve profitability, reduce losses from returns, and support data-driven decision-making.
 
-Customer Loss Analysis Dashboard
+---
 
-Entry Product Impact Dashboard
+## Tools & Technologies
+
+* SQL Server
+* Power BI
+* DAX
+* Star Schema Data Modeling
+* Data Cleaning & Validation
+* Business Analytics
+
+---
+
+## Project Workflow
+
+### Data Quality Assessment
+
+Performed extensive validation checks including:
+
+* Null value analysis
+* Duplicate detection
+* Referential integrity validation
+* Business rule validation
+* Outlier detection
+* Data type verification
+
+### Data Modeling
+
+Designed a Star Schema consisting of:
+
+#### Dimension Tables
+
+* dim_customer
+* dim_product
+* dim_location
+* dim_sales_manager
+
+#### Fact Table
+
+* fact_orders
+
+---
+
+## Business Analysis Performed
+
+### Sales Analysis
+
+* Net Sales Trends
+* Regional Sales Distribution
+* State-wise Performance
+* Category and Sub-category Contribution
+
+### Profit Analysis
+
+* Net Profit Trends
+* Profit Margin Analysis
+* Loss-Making Categories and Products
+* Regional Profitability
+
+### Quantity Analysis
+
+* Quantity Trends
+* Product Demand Analysis
+* Regional Quantity Distribution
+
+### Customer Analysis
+
+* High-Value Customer Identification
+* Customer Purchase Behavior
+* Top Customers by Sales, Profit, and Quantity
+
+### Operational Analysis
+
+* Return Impact Analysis
+* Shipping Mode Profitability
+* Operational Cost Evaluation
+
+---
+
+## Advanced SQL Analyses
+
+* High-Value Customer Segmentation
+* Top Customers by Category
+* Top 3 Products by Sales
+* Year-over-Year Sales Growth
+* Most Profitable Shipping Mode
+* Customer Discount Behavior Analysis
+
+---
+
+## Key Insights
+
+* Net Sales reached approximately $374K with a profit margin of 11.89%.
+* Several sub-categories generated negative profits despite strong sales.
+* Customer returns significantly impacted profitability.
+* A small group of customers contributed a large share of revenue.
+* Certain shipping modes generated higher profitability than others.
+* Sales and quantity showed consistent growth over time.
+
+---
+
+## Dashboard Pages
+
+### Net Sales Analysis
+
+Analyzes revenue trends, customer contribution, regional performance, and state-wise sales distribution.
+
+### Net Profit Analysis
+
+Tracks profitability trends, identifies loss-making products, and evaluates profit contribution across regions.
+
+### Net Quantity Analysis
+
+Examines product demand patterns, quantity growth, and customer purchase volume.
+
+---
+
+## Repository Contents
+
+* SQL Scripts
+* Power BI Dashboard (.pbix)
+* Dashboard Screenshots
+* Project Documentation
+
+---
+
+## Skills Demonstrated
+
+SQL | Data Cleaning | Data Modeling | Star Schema | Window Functions | CTEs | Power BI | DAX | Data Visualization | Business Analytics
+
 
 **2. Merchant Interchange Finance Analysis**
 
