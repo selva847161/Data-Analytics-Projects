@@ -19,7 +19,8 @@ Cohort Analysis
 Data Visualization
 Business Analytics
 Key Analyses Performed
-1. RFM Customer Segmentation
+
+*1. RFM Customer Segmentation*
 
 Segmented customers based on:
 
