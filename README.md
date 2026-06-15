@@ -230,32 +230,29 @@ Examines product demand patterns, quantity growth, and customer purchase volume.
 SQL | Data Cleaning | Data Modeling | Star Schema | Window Functions | CTEs | Power BI | DAX | Data Visualization | Business Analytics
 
 
-**2. Merchant Interchange Finance Analysis**
+# 2. Merchant Interchange Finance Analysis
 
-**Project Overview**
+## Project Overview
 
 Analyze merchant transaction data to understand revenue patterns, transaction volumes, and interchange fee behavior.
 
-**Key Highlights:**
+## Key Highlights:
 
-Calculated total revenue and transaction metrics
+* Calculated total revenue and transaction metrics
+* Identified top-performing merchants
+* Analyzed monthly transaction trends
+* Used complex joins, subqueries, and aggregations
 
-Identified top-performing merchants
-
-Analyzed monthly transaction trends
-
-Used complex joins, subqueries, and aggregations
-
-**Skills Used:**
+## Skills Used:
 Joins | CTEs | Window Functions | Aggregations | Date Functions
 
-**Skills Used:**
+## Skills Used:
 Filtering | Subqueries | Aggregations | Performance Optimization
 
-**🛠 Tools & Technologies**
+## 🛠 Tools & Technologies
 
-SQL (MySQL / PostgreSQL compatible)
+* SQL (MySQL / PostgreSQL compatible)
 
-GitHub
+* GitHub
 
-Data Analysis Techniques
+* Data Analysis Techniques
